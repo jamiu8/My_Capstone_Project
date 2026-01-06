@@ -19,7 +19,8 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/weather', include('weather.urls')),
-    path('api/recommendation/', include('recommendations.urls')),
+    path('api/users/', include('users.urls')),
+    path('api/weather/', include('weather.urls')),
+    path('api/recommendation/', include('recommendation.urls')),
 
 ]

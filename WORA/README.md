@@ -48,6 +48,7 @@ Content-Type: application/json
   "password": "strongpassword"
 }'''
 
+
 **Response**
 '''{
   "success": true,
